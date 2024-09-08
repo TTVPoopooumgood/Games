@@ -94,15 +94,15 @@ Array.from(boxes).forEach((element) =>{
 
 
 document.querySelector(".playsong").addEventListener('click',(e)=>{ 
-    if(e.target.innerText === "?"){
-    e.target.innerText = '??????';
+    if(e.target.innerText === "play"){
+    e.target.innerText = 'stop';
     music.play();
     
     
 
     
 }else{
-    e.target.innerText = '?'
+    e.target.innerText = 'play'
     music.pause()
     
    
