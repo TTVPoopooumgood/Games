@@ -1,4 +1,4 @@
-let music = new Audio("Aimee-Carty-2-Days-Into-College-(Lyrics).mp3")
+let music = new Audio("jim-yosef-x-roy-knox-sun-goes-down-ncs-release_KB96fVy4.mp3")
 let audioTurn = new Audio("ting.mp3")
 let gameOver = new Audio("game-over-sound-effects-high-quality_zpZvgEQk.mp3")
 let gameStart = new Audio("Game Start Sound Effect.mp3")
