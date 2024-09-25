@@ -5,15 +5,16 @@
 
   "Devs": {
     "dev/Admin": "@TTVpoopooumgood",
+    "authorID": 178626439
+    "site_admin": True,
     "dev": "@PoopooumgoodTTV"
-    "site_admin": ,
-    "description": "{description}",
-  }
-{
-  "title": "Update index.html",
+    "authorID": 173562061
+    "site_admin": false,
+
+  "title": "Made game CUT THE ROPE ",
   "authorID": 178626439
-}
-{
-  "title": "Edit index file",
+
+
+  "title": "Edited index file",
   "authorID": 173562061
 }
