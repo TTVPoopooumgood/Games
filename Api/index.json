@@ -2,12 +2,12 @@
   "name": "TTVgames",
   "version": "2.9.0",
   "private": false,
-  "description": "",
+  "description": "Play Unblocked Games Anytime!",
 
   "Devs": {
     "dev/Admin": "@TTVpoopooumgood",
     "authorID": 178626439
-    "site_admin": ,
+    "site_admin": True But is says not,
     "dev": "@PoopooumgoodTTV"
     "authorID": 173562061
     "site_admin": false,
