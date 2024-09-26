@@ -223,4 +223,17 @@ body  {
 
     <!--el:{{mode === 'dev'}}:development-->
 
- 
+ <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                alert("Copied to clipboard!");
+            }, () => {
+                alert("Failed to copy");
+            });
+        }
+    </script>
+</head>
+
+<body>
+    <h2>Games copy &lt;3</h2>
+    <button onclick="copyToClipboard('Https://ttvpoopooumgood.github.io/Games')">Games link</button>
