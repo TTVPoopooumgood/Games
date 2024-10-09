@@ -1,0 +1,113 @@
+<style>
+	#sprites
+	{
+	}
+	.num
+	{
+		width: 20px;
+		display: inline-block;
+	}
+	.option
+	{
+		margin: 3px;
+	}
+	.options
+	{
+		background-color: #aeaeee;
+	}
+	.spritefiles
+	{
+		background-color: #aeeeee;
+	}
+	.menu
+	{
+		background-color: #eeeeee;
+		padding: 1px;
+		display: block;
+		margin: 3px;
+		padding: 5px;
+		border-radius: 3px;		
+	}
+	#sprites > div
+	{
+		margin: 2px;
+		border-radius: 3px;
+		background-color: #aeeeae;
+		padding: 10px;
+		overflow: hidden;
+	}
+	#sprites > div > *
+	{
+		margin-right: 5px;
+		vertical-align: top;
+	}
+	#sprites button
+	{
+		float: right;
+	}
+	.right
+	{
+		float: right;
+	}
+	h1
+	{
+		color: white;
+		background: #800000;
+		padding: 10px;
+		border-radius: 5px;
+	}
+	.block
+	{
+		padding: 5px;
+		display: inline-block;
+		border-radius: 3px;
+	}
+	.project
+	{
+		background-color: #eeeeae;
+	}
+	.hidden
+	{
+		display: none;
+	}
+	.file
+	{
+		background-color: #ffdddd;
+		margin-right: 5px;
+	}
+	h1
+	{
+		margin-bottom: 5px;
+	}
+	canvas
+	{
+		cursor: none;
+		image-rendering: pixelated;
+	}
+	.points
+	{
+		background-color: #eeddcc;
+	}
+	.point
+	{
+		background-color: #ccddee;
+		margin: 2px;
+		border-radius: 3px;
+		padding: 10px;
+		overflow: hidden;
+	}
+	.point input
+	{
+		height: 23px;
+	}
+</style>
+</head>
+<body style="font-family: arial">
+<h1>bitluni's lenticular converter</h1>
+<div style="max-width: 800px">
+	<div class="menu">
+		<span class="project block">
+			<button title="Open project file" onclick="document.getElementById('openproject').click()">&#x1F4C2;</button> 
+			<input id="openproject" type="file" onchange="loadProject(event)" accept=".json" hidden>
+			<button title="Generate project file" onclick="saveProject();">&#128190;</button>
+		</span>
